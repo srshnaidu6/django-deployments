@@ -1,0 +1,18 @@
+Django:
+Creating virtal environments with Conda:
+
+>conda create --name Myenv python=3.7 Django
+>conda info envs 
+>activate Myenv
+
+> conda update -n base -c defaults conda
+
+django command line tool:
+
+>django-admin
+>django-admin startproject <name of the projecct
+
+>python manage.py runserver
+
+>python manage.py startapp <app-name>
+
